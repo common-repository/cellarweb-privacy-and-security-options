@@ -1,0 +1,100 @@
+/* CSS for CellarWebv Private Functions */
+
+body {
+	color: #000;
+}
+
+.CWPS_header {
+	color: #000;
+	margin-top: 5px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	padding: 5px;
+}
+.CWPS_introtext {
+	padding: 5px 10px;
+	margin: 5px 10px;
+	color: black;
+	background-color: #90EE90;
+}
+.CWPS_settings_fields {
+	margin-left: 5%;
+	width: 70%;
+}
+.CWPS_settings {
+	padding: 10px;
+}
+.CWPS_options {
+	width: 75%;
+	float: left;
+	overflow: hidden;
+}
+.CWPS_checkbox {
+	vertical-align: baseline !important;
+}
+.CWPS_shadow {
+		-webkit-box-shadow: 5px 5px 3px 0 rgba(128,123,128,1);
+	   -moz-box-shadow: 5px 5px 3px 0 rgba(128,123,128,1);
+	        box-shadow: 5px 5px 3px 0 rgba(128,123,128,1);
+
+}
+.CWPS_textarea, .CWPS_textarea[readonly] {
+	margin-left: 10%;
+	background-color: lightgoldenrodyellow;
+}
+
+
+.CWPS_sidebar {
+	float: left;
+	width: 20%;
+	overflow: hidden;
+	background-color: #7FFFD4;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	border: thin solid #39F;
+	margin-left:10px;
+}
+.CWPS_footer {
+	float: left;
+	background-color: #9FE8FF;
+	padding-left: 15px;
+	width: 100%;
+	margin-top: 15px;
+	margin-right: 0;
+	margin-bottom: 15px;
+	margin-left: 0;
+	padding-top: 10px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+}
+#footer-thankyou , #footer-upgrade {display:none !important;} 
+
+.CWPS_lock {
+	background-image: url('icons8-lock-30.png');
+}
+.CWPS_warning {
+	background-image: url('icons8-high-importance-48.png')
+}
+.CWPS_box_yellow {
+	background-color:lightyellow;
+	border: 1px solid black;
+	padding:5px 20px 5px 15px;
+ 	font-family:"Courier New", Courier, monospace;
+	margin-left:25px;
+	width:auto;
+	min-width: 50%;
+	display: inline-block;
+}
+.CWPS_box_green {
+	background-color: lightgreen;
+	border: 1px solid black;
+	padding: 5px 20px 5px 15px;
+	font-family: "Courier New", Courier, monospace;
+	margin-left: 25px;
+	width: auto;
+	min-width: 50%;
+	display: inline-block;
+}
